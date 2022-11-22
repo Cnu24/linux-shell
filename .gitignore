@@ -93,3 +93,10 @@ buildNumber.properties
 .classpath
 
 # End of https://www.toptal.com/developers/gitignore/api/maven,git,linux,java
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.gitconfig
+.ssh/
+
