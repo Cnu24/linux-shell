@@ -1,0 +1,324 @@
+ sudo yum -y install nano
+  250  nano --version
+  251  clear
+  252  nano cliessential.txt
+  253  ls
+  254  cat cliessential.txt
+  255  clear
+  256  man +help
+  257  man help
+  258  clear
+  259  cd
+  260   cd /home
+  261  ls
+  262  clear
+  263  ls --help
+  264  clear
+  265  ls
+  266  clear
+  267  nano test.sh
+  268  uname
+  269  cd centos
+  270  ls
+  271  nano test.sh
+  272  ./test.sh
+  273  chmod 555 test.sh
+  274  ./test.sh
+  275  nano example.sh
+  276  chmod 555 example.sh
+  277  ./example.sh
+  278  nano var.sh
+  279  chamod 555 var.sh
+  280  chmod 555 var.sh
+  281  ./var.sh
+  282  clear
+  283  nano rdonly.sh
+  284  chmod 555 rdonly.sh
+  285  ./rdonly.sh
+  286  nano rdonly.sh
+  287  chmod 777 rdonly.sh
+  288  nano rdonly.sh
+  289  clear
+  290  nano basic_for.sh
+  291  chmod 777 basic_for.sh
+  292  ./basic_for.sh
+  293  ./basic_for.sh "srinivas"
+  294  ./basic_for.sh "srinivas" cnu "shankar"
+  295  ./basic_for.sh aaaaaaaaaaaaaaaaaaaaa
+  296  ./basic_for.sh a b  c d e f g h i j k l m n o p q r s t
+  297  clear
+  298  pwd
+  299  ls
+  300  clear
+  301  nano for.sh
+  302  chmod 777 for.sh
+  303  ./for.sh
+  304  nano for.sh
+  305  ./for.sh
+  306  clear
+  307  nano while.sh
+  308  chmod 777 while.sh
+  309  ./basic_for.sh
+  310  ./while.sh
+  311  chmod 777 while.sh
+  312  ./while.sh
+  313  nano while.sh
+  314  chmod 777 while.sh
+  315  ./while.sh
+  316  ls
+  317  mv while.sh while-lp.sh
+  318  clear
+  319  ls
+  320  chmod 777 while-lp.sh
+  321  ./while-lp.sh
+  322  nano while-lp.sh
+  323  ./while-lp.sh
+  324  nano while-lp.sh
+  325  ./while-lp.sh
+  326  nano while-lp.sh
+  327  ./while-lp.sh
+  328  nano while-lp.sh
+  329  ./while-lp.sh
+  330  clear
+  331  nano while-lp.sh
+  332  ./while-lp.sh
+  333  nano while-lp.sh
+  334  ./while-lp.sh
+  335  clear
+  336  ./while-lp.sh
+  337  clear
+  338  nano while-lp.sh
+  339  ./while-lp.sh
+  340  nano while-lp.sh
+  341  ./while-lp.sh
+  342  clear
+  343  nano while-lp.sh
+  344  ./while-lp.sh
+  345  nano while-lp.sh
+  346  ./while-lp.sh
+  347  clear
+  348  nano while-lp.sh
+  349  ./while-lp.sh
+  350  nano while-lp.sh
+  351  ./while-lp.sh
+  352  ls
+  353  nano until.sh
+  354  chmod 777 until.sh
+  355  ./until.sh
+  356  nano until.sh
+  357  ./until.sh
+  358  clear
+  359  nano until.sh
+  360  ./until.sh
+  361  nano until.sh
+  362  ./until.sh
+  363  nano until.sh
+  364  clear
+  365  ls
+  366  clea
+  367  clear
+  368  nano nested.sh
+  369  chmod 777 nested.sh
+  370  ./nested.sh
+  371  clear
+  372  chmod 777 nested.sh
+  373  nano nested.sh
+  374  ./nested.sh
+  375  ls
+  376  nano until.sh
+  377  nano nested.sh
+  378  ./nested.sh
+  379  nano nested.sh
+  380  ./nested.sh
+  381  clear
+  382  nano nested.sh
+  383  ./nested.sh
+  384  nano nested.sh
+  385  ./nested.sh
+  386  clear
+  387  nano infn.sh
+  388  chmod 777 infn.sh
+  389  ./infn.sh
+  390  nano infn.sh
+  391  ./infn.sh
+  392  nano infn.sh
+  393  ./infn.sh
+  394  nano infn.sh
+  395  nano nested.sh
+  396  nano infn.sh
+  397  ./infn.sh
+  398  nano infn.sh
+  399  ./infn.sh
+  400  nano infn.sh
+  401  ./infn.sh
+  402  clear
+  403  ls
+  404  #!/bin/sh
+  405  nanao break.sh
+  406  nano break.sh
+  407  chmod 777 break.sh
+  408  ./break.sh
+  409  nano break.sh
+  410  ./break.sh
+  411  nano break.sh
+  412  ./break.sh
+  413  nano break.sh
+  414  ./break.sh
+  415  nano break.sh
+  416  ./break.sh
+  417  nano break.sh
+  418  clear
+  419  ./break.sh
+  420  nano break.sh
+  421  chmod 777 break.sh
+  422  nano break.sh
+  423  ./break.sh
+  424  ls
+  425  clear
+  426  ls
+  427  ./until.sh
+  428  nano until.sh
+  429  cat until.sh
+  430  cat break.sh
+  431  ls
+  432  cat while-lp.sh
+  433  cat break.sh
+  434  nano break.sh
+  435  ./break.sh
+  436  nano break.sh
+  437  ./break.sh
+  438  nano break.sh
+  439  ./break.sh
+  440  nano break.sh
+  441  ./break.sh
+  442  nano break.sh
+  443  ./break.sh
+  444  nano break.sh
+  445  clear
+  446  ls
+  447  cat break.sh
+  448  cat while-lp.sh
+  449  clear
+  450  ls
+  451  clear
+  452  nano continue.sh
+  453  chmod 777 continue.sh
+  454  ./continue.sh
+  455  nano continue.sh
+  456  ./continue.sh
+  457  nano continue.sh
+  458  ./continue.sh
+  459  ./continue.sh \
+  460  clear
+  461  nano continue.sh
+  462  ./continue.sh \
+  463  ./continue.sh
+  464  nano continue.sh
+  465  ./continue.sh
+  466  clear
+  467  ./continue.sh
+  468  clear
+  469  nano continue.sh
+  470  ./continue.sh
+  471  nano continue.sh
+  472  ./continue.sh
+  473  clear
+  474  nano continue.sh
+  475  ./continue.sh
+  476  nano continue.sh
+  477  ./continue.sh
+  478  clear
+  479  ./continue.sh
+  480  clear
+  481  nano fun.sh
+  482  chmod 777 fun.sh
+  483  ./fun.sh
+  484  nano fun.sh
+  485  chmod 777 fun.sh
+  486  ./fun.sh
+  487  nano fun.sh
+  488  ./fun.sh
+  489  clear
+  490  ./fun.sh
+  491  clear
+  492  nano fun.sh
+  493  ./fun.sh
+  494  nano fun.sh
+  495  ./fun.sh
+  496  nano fun.sh
+  497  ./fun.sh
+  498  nano fun.sh
+  499  ./fun.sh
+  500  nano fun.sh
+  501  ./fun.sh
+  502  clear
+  503  ls
+  504  nano fun1.sh
+  505  chmod 777 fun1.sh
+  506  ./fun1.sh
+  507  nano fun1.sh
+  508  ./fun1.sh
+  509  nano fun1.sh
+  510  ./fun1.sh
+  511  nano fun1.sh
+  512  ./fun1.sh
+  513  nano fun1.sh
+  514  clear
+  515  su
+  516  whoami
+  517  clear
+  518  pwd
+  519  su
+  520  sudo bash
+  521  clear
+  522  sudo useradd cnu
+  523  sudo passwd cnu
+  524  ls
+  525  pwd
+  526  cd ..
+  527  ls
+  528  cd cnu
+  529  chmod 777 cnu
+  530  sudo userdel cnu
+  531  ls
+  532  ls
+  533  clear
+  534  cd centos
+  535  ls
+  536  sudo userdel cnu
+  537  cd ~
+  538  ls
+  539  pwd
+  540  ls
+  541  git branch
+  542  git
+  543  clear
+  544  ls -a
+  545  clear
+  546  history
+  547  clear
+  548  history
+  549  clear
+  550  ls
+  551  cd ..
+  552  ls
+  553  sudo userdel cnu
+  554  ls
+  555  cat cnu
+  556  ls cnu
+  557  sudo rm -r cnu
+  558  ls
+  559  sudo useradd cnu
+  560  ls
+  561  clear
+  562  ls
+  563  sudo userdel cnu
+  564  ls
+  565  sudo rm -r cnu
+  566  ls
+  567  sudo groupadd techies
+  568  ls
+  569  cd~
+  570  pwd
+  571  ls
+  572  sudo groupdel techies
